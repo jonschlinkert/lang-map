@@ -1,0 +1,53 @@
+{
+  "name": "lang-map",
+  "description": "Get the language associated with a file extension or the extensions associated with a language using the data from GitHub's [Linguist YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/lang-map",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/lang-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/lang-map/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/lang-map/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "classify",
+    "detect",
+    "determine",
+    "ext",
+    "extension",
+    "extensions",
+    "lookup",
+    "match",
+    "search",
+    "identify",
+    "lang",
+    "language",
+    "languages",
+    "linguist",
+    "map"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "language-map": "0.0.2",
+    "mocha": "*",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.1.4"
+  }
+}
