@@ -7,10 +7,9 @@
 
 'use strict';
 
-var languages = require('./lang.json');
+var languages = module.exports = require('./lang.json');
 
-
-module.exports = function (extension) {
+languages.lang = function (extension) {
   extension = extension.replace(/\./, '');
   for (var lang in languages) {
     var ext = languages[lang];
@@ -21,7 +20,7 @@ module.exports = function (extension) {
   return null;
 };
 
-module.exports.ext = function (lang) {
+languages.ext = function (lang) {
   lang = lang.toLowerCase();
   return languages[lang];
 };

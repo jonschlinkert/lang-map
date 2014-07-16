@@ -7,18 +7,23 @@
 
 'use strict';
 
-var language = require('./');
+var languages = require('./');
 var assert = require('assert');
 
 describe('lang-map', function () {
+
+  it('should return the full list of languages.', function () {
+    assert.equal(typeof languages, 'object');
+  });
+
   it('should return the language matching the given extension.', function () {
-    assert.equal(language('js'), 'javascript');
-    assert.equal(language('.js'), 'javascript');
-    assert.equal(language('py'), 'python');
+    assert.equal(languages.lang('js'), 'javascript');
+    assert.equal(languages.lang('.js'), 'javascript');
+    assert.equal(languages.lang('py'), 'python');
   });
 
   it('should return the extensions matching the given language.', function () {
-    assert.deepEqual(language.ext('asciidoc'), ["asciidoc", "adoc", "asc"]);
-    assert.deepEqual(language.ext('python'), ["py", "gyp", "lmi", "pyde", "pyt", "pyw", "wsgi", "xpy"]);
+    assert.deepEqual(languages.ext('asciidoc'), ["asciidoc", "adoc", "asc"]);
+    assert.deepEqual(languages.ext('python'), ["py", "gyp", "lmi", "pyde", "pyt", "pyw", "wsgi", "xpy"]);
   });
 });
