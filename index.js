@@ -16,12 +16,11 @@ languages.lang = function (extension) {
     if (ext.indexOf(extension) !== -1) {
       return lang;
     }
+    return extension;
   }
-  return null;
 };
 
 languages.ext = function (lang) {
   lang = lang.toLowerCase();
-  return languages[lang];
+  return languages[lang] || lang;
 };
-
