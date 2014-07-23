@@ -1,7 +1,7 @@
 {
   "name": "lang-map",
   "description": "Get the language associated with a file extension or the extensions associated with a language using the data from GitHub's [Linguist YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/lang-map",
   "author": {
     "name": "Jon Schlinkert",
