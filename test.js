@@ -17,9 +17,10 @@ describe('lang-map', function () {
   });
 
   it('should return the language matching the given extension.', function () {
-    assert.equal(languages.lang('js'), 'javascript');
-    assert.equal(languages.lang('.js'), 'javascript');
     assert.equal(languages.lang('py'), 'python');
+    assert.equal(languages.lang('js'), 'javascript');
+    assert.equal(languages.lang('hbs'), 'handlebars');
+    assert.equal(languages.lang('.js'), 'javascript');
   });
 
   it('should return the extensions matching the given language.', function () {
