@@ -109,6 +109,7 @@
   "c": [
     "c",
     "cats",
+    "h",
     "w"
   ],
   "c#": [
@@ -123,13 +124,15 @@
     "cc",
     "cxx",
     "H",
+    "h",
     "h++",
     "hh",
     "hpp",
     "hxx",
     "inl",
     "tcc",
-    "tpp"
+    "tpp",
+    "ipp"
   ],
   "c-objdump": [
     "c-objdump"
@@ -142,7 +145,7 @@
   ],
   "cmake": [
     "cmake",
-    "cmake.in"
+    "in"
   ],
   "cobol": [
     "cob",
@@ -156,6 +159,9 @@
   ],
   "ceylon": [
     "ceylon"
+  ],
+  "chapel": [
+    "chpl"
   ],
   "chuck": [
     "ck"
@@ -175,7 +181,7 @@
     "cljscm",
     "cljx",
     "hic",
-    "cljs.hl"
+    "hl"
   ],
   "coffeescript": [
     "coffee",
@@ -184,7 +190,9 @@
     "iced"
   ],
   "coldfusion": [
-    "cfm",
+    "cfm"
+  ],
+  "coldfusion cfc": [
     "cfc"
   ],
   "common lisp": [
@@ -195,8 +203,13 @@
     "ny",
     "podsl"
   ],
+  "component pascal": [
+    "cp",
+    "cps"
+  ],
   "coq": [
-    "coq"
+    "coq",
+    "v"
   ],
   "cpp-objdump": [
     "cppobjdump",
@@ -215,6 +228,9 @@
   "cuda": [
     "cu",
     "cuh"
+  ],
+  "cycript": [
+    "cy"
   ],
   "cython": [
     "pyx",
@@ -242,12 +258,9 @@
   "dart": [
     "dart"
   ],
-  "dcpu-16 asm": [
-    "dasm16",
-    "dasm"
-  ],
   "diff": [
-    "diff"
+    "diff",
+    "patch"
   ],
   "dogescript": [
     "djs"
@@ -287,6 +300,7 @@
   ],
   "erlang": [
     "erl",
+    "escript",
     "hrl"
   ],
   "f#": [
@@ -328,13 +342,17 @@
   ],
   "forth": [
     "fth",
-    "4th"
+    "4th",
+    "forth"
   ],
   "frege": [
     "fr"
   ],
   "game maker language": [
     "gml"
+  ],
+  "gams": [
+    "gms"
   ],
   "gap": [
     "g",
@@ -350,12 +368,14 @@
     "glsl",
     "fp",
     "frag",
+    "frg",
     "fshader",
     "geom",
     "glslv",
     "gshader",
     "shader",
     "vert",
+    "vrx",
     "vshader"
   ],
   "genshi": [
@@ -385,7 +405,13 @@
     "go"
   ],
   "gosu": [
-    "gs"
+    "gs",
+    "gst",
+    "gsx",
+    "vark"
+  ],
+  "grace": [
+    "grace"
   ],
   "grammatical framework": [
     "gf"
@@ -401,7 +427,11 @@
     "7"
   ],
   "groovy": [
-    "groovy"
+    "groovy",
+    "gradle",
+    "grt",
+    "gtpl",
+    "gvy"
   ],
   "groovy server pages": [
     "gsp"
@@ -409,7 +439,6 @@
   "html": [
     "html",
     "htm",
-    "html.hl",
     "st",
     "xhtml"
   ],
@@ -419,9 +448,7 @@
   ],
   "html+erb": [
     "erb",
-    "erb.deface",
-    "html.erb",
-    "html.erb.deface"
+    "deface"
   ],
   "html+php": [
     "phtml"
@@ -431,14 +458,11 @@
   ],
   "haml": [
     "haml",
-    "haml.deface",
-    "html.haml.deface"
+    "deface"
   ],
   "handlebars": [
     "handlebars",
-    "hbs",
-    "html.handlebars",
-    "html.hbs"
+    "hbs"
   ],
   "harbour": [
     "hb"
@@ -455,7 +479,8 @@
     "hy"
   ],
   "idl": [
-    "pro"
+    "pro",
+    "dlm"
   ],
   "ini": [
     "ini",
@@ -483,11 +508,15 @@
   "ioke": [
     "ik"
   ],
+  "isabelle": [
+    "thy"
+  ],
   "j": [
     "ijs"
   ],
   "json": [
     "json",
+    "lock",
     "sublime-keymap",
     "sublime-mousemap",
     "sublime-project",
@@ -519,6 +548,7 @@
     "_js",
     "bones",
     "es6",
+    "frag",
     "jake",
     "jsfl",
     "jsm",
@@ -527,7 +557,9 @@
     "njs",
     "pac",
     "sjs",
-    "ssjs"
+    "ssjs",
+    "xsjs",
+    "xsjslib"
   ],
   "julia": [
     "jl"
@@ -549,8 +581,14 @@
   "llvm": [
     "ll"
   ],
+  "labview": [
+    "lvproj"
+  ],
   "lasso": [
-    "lasso"
+    "lasso",
+    "las",
+    "lasso9",
+    "ldml"
   ],
   "latte": [
     "latte"
@@ -585,9 +623,13 @@
     "lgt",
     "logtalk"
   ],
+  "lookml": [
+    "lookml"
+  ],
   "lua": [
     "lua",
     "nse",
+    "pd_lua",
     "rbxs"
   ],
   "m": [
@@ -609,6 +651,7 @@
     "md",
     "markdown",
     "mkd",
+    "mkdn",
     "mkdown",
     "ron"
   ],
@@ -616,7 +659,9 @@
     "mask"
   ],
   "mathematica": [
-    "mathematica"
+    "mathematica",
+    "m",
+    "nb"
   ],
   "matlab": [
     "matlab",
@@ -658,7 +703,8 @@
     "myt"
   ],
   "nsis": [
-    "nsi"
+    "nsi",
+    "nsh"
   ],
   "nemerle": [
     "n"
@@ -673,6 +719,12 @@
     "nim",
     "nimrod"
   ],
+  "nit": [
+    "nit"
+  ],
+  "nix": [
+    "nix"
+  ],
   "nu": [
     "nu"
   ],
@@ -683,6 +735,7 @@
   ],
   "ocaml": [
     "ml",
+    "eliom",
     "eliomi",
     "ml4",
     "mli",
@@ -693,7 +746,8 @@
     "objdump"
   ],
   "objective-c": [
-    "m"
+    "m",
+    "h"
   ],
   "objective-c++": [
     "mm"
@@ -713,10 +767,19 @@
     "opencl"
   ],
   "openedge abl": [
-    "p"
+    "p",
+    "cls"
+  ],
+  "openscad": [
+    "scad"
   ],
   "org": [
     "org"
+  ],
+  "ox": [
+    "ox",
+    "oxh",
+    "oxo"
   ],
   "oxygene": [
     "oxygene"
@@ -728,10 +791,14 @@
     "php",
     "aw",
     "ctp",
+    "module",
     "php3",
     "php4",
     "php5",
     "phpt"
+  ],
+  "pan": [
+    "pan"
   ],
   "parrot": [
     "parrot"
@@ -745,17 +812,21 @@
   "pascal": [
     "pas",
     "dfm",
+    "dpr",
     "lpr"
   ],
   "perl": [
     "pl",
     "PL",
+    "cgi",
+    "fcgi",
     "perl",
     "ph",
     "plx",
     "pm",
     "pod",
-    "psgi"
+    "psgi",
+    "t"
   ],
   "perl6": [
     "p6",
@@ -814,6 +885,7 @@
     "gyp",
     "lmi",
     "pyde",
+    "pyp",
     "pyt",
     "pyw",
     "wsgi",
@@ -825,9 +897,15 @@
   "qml": [
     "qml"
   ],
+  "qmake": [
+    "pro",
+    "pri"
+  ],
   "r": [
     "r",
     "R",
+    "Rd",
+    "rd",
     "rsx"
   ],
   "rdoc": [
@@ -851,7 +929,8 @@
   "racket": [
     "rkt",
     "rktd",
-    "rktl"
+    "rktl",
+    "scrbl"
   ],
   "ragel in ruby host": [
     "rl"
@@ -886,7 +965,10 @@
     "god",
     "irbrc",
     "mspec",
+    "pluginspec",
     "podspec",
+    "rabl",
+    "rake",
     "rbuild",
     "rbw",
     "rbx",
@@ -897,8 +979,15 @@
   "rust": [
     "rs"
   ],
+  "sas": [
+    "sas"
+  ],
   "scss": [
     "scss"
+  ],
+  "sqf": [
+    "sqf",
+    "hqf"
   ],
   "sql": [
     "sql",
@@ -907,14 +996,19 @@
     "udf",
     "viw"
   ],
+  "ston": [
+    "ston"
+  ],
   "sage": [
     "sage"
   ],
   "sass": [
-    "sass"
+    "sass",
+    "scss"
   ],
   "scala": [
     "scala",
+    "sbt",
     "sc"
   ],
   "scaml": [
@@ -924,18 +1018,23 @@
     "scm",
     "sld",
     "sls",
+    "sps",
     "ss"
   ],
   "scilab": [
-    "sci"
+    "sci",
+    "sce",
+    "tst"
   ],
   "self": [
     "self"
   ],
   "shell": [
     "sh",
+    "bash",
     "bats",
-    "tmux"
+    "tmux",
+    "zsh"
   ],
   "shellsession": [
     "sh-session"
@@ -945,6 +1044,9 @@
   ],
   "slash": [
     "sl"
+  ],
+  "slim": [
+    "slim"
   ],
   "smalltalk": [
     "st"
@@ -959,8 +1061,10 @@
     "nut"
   ],
   "standard ml": [
-    "sml",
-    "fun"
+    "ML",
+    "fun",
+    "sig",
+    "sml"
   ],
   "stata": [
     "do",
@@ -976,6 +1080,9 @@
   ],
   "supercollider": [
     "scd"
+  ],
+  "swift": [
+    "swift"
   ],
   "systemverilog": [
     "sv",
@@ -1000,10 +1107,13 @@
   "tex": [
     "tex",
     "aux",
+    "bbx",
     "bib",
+    "cbx",
     "cls",
     "dtx",
     "ins",
+    "lbx",
     "ltx",
     "mkii",
     "mkiv",
@@ -1033,6 +1143,9 @@
   "unrealscript": [
     "uc"
   ],
+  "vcl": [
+    "vcl"
+  ],
   "vhdl": [
     "vhdl",
     "vhd",
@@ -1057,6 +1170,7 @@
   "visual basic": [
     "vb",
     "bas",
+    "cls",
     "frm",
     "frx",
     "vba",
@@ -1071,19 +1185,27 @@
   ],
   "xml": [
     "xml",
+    "ant",
     "axml",
     "ccxml",
     "clixml",
     "cproject",
+    "csproj",
+    "ct",
     "dita",
     "ditamap",
     "ditaval",
+    "filters",
+    "fsproj",
     "glade",
     "grxml",
+    "ivy",
     "jelly",
     "kml",
     "launch",
     "mxml",
+    "nproj",
+    "nuspec",
     "osm",
     "plist",
     "pluginspec",
@@ -1095,6 +1217,7 @@
     "scxml",
     "srdf",
     "svg",
+    "targets",
     "tmCommand",
     "tmLanguage",
     "tmPreferences",
@@ -1103,6 +1226,8 @@
     "tml",
     "ui",
     "urdf",
+    "vbproj",
+    "vcxproj",
     "vxml",
     "wsdl",
     "wxi",
@@ -1136,6 +1261,14 @@
     "xslt",
     "xsl"
   ],
+  "xojo": [
+    "xojo_code",
+    "xojo_menu",
+    "xojo_report",
+    "xojo_script",
+    "xojo_toolbar",
+    "xojo_window"
+  ],
   "xtend": [
     "xtend"
   ],
@@ -1147,6 +1280,11 @@
   ],
   "zephir": [
     "zep"
+  ],
+  "zimpl": [
+    "zimpl",
+    "zmpl",
+    "zpl"
   ],
   "ec": [
     "ec",

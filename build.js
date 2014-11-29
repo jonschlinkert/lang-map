@@ -11,10 +11,11 @@ var fs = require('fs');
 var languages = require('language-map');
 
 var obj = {};
+
 for (var lang in languages) {
   var key = lang.toLowerCase();
   obj[key] = languages[lang].extensions.map(function (ext) {
-    return ext.replace(/\./, '');
+    return ext.slice(1);
   });
 }
 
