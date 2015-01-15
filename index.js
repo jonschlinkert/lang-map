@@ -1,46 +1,61 @@
 /*!
  * lang-map <https://github.com/jonschlinkert/lang-map>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Copyright (c) 2014-2015, Jon Schlinkert.
  * Licensed under the MIT license.
  */
 
 'use strict';
 
-var languages = module.exports = require('./lang.json');
-var keys = Object.keys(languages);
+var languages = require('./lang.json');
 
+/**
+ * Expose languages module
+ */
 
-function language(ext) {
-  if (ext[0] === '.') {
-    ext = ext.slice(1);
-  }
+module.exports = languages;
 
-  var len = keys.length;
-  var i = 0;
+/**
+ * Get the list of extensions mapped to the
+ * given `lang`
+ *
+ * @param  {String} `lang`
+ * @return {String}
+ */
 
+languages.ext = function extension(lang) {
+  lang = lang.toLowerCase();
+  return languages.hasOwnProperty(lang)
+    ? languages[lang]
+    : lang;
+};
+
+/**
+ * Get the language mapped to the given `ext`
+ *
+ * @param  {String} `ext`
+ * @return {String}
+ */
+
+languages.lang = function lang(ext) {
+  if (ext[0] === '.') ext = ext.slice(1);
   if (languages.hasOwnProperty(ext)) {
     return ext;
   }
 
+  var keys = Object.keys(languages);
+  var len = keys.length;
+  var i = 0;
+
   while (i < len) {
     var key = keys[i++];
-    var langs = languages[key];
     if (key === ext) {
       return key;
     }
 
+    var langs = languages[key];
     if (langs.indexOf(ext) !== -1) {
       return key;
     }
   }
-}
-
-function extension(lang) {
-  lang = lang.toLowerCase();
-  return languages[lang] || lang;
-}
-
-
-languages.lang = language;
-languages.ext = extension;
+};
