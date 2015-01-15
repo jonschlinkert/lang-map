@@ -1,7 +1,7 @@
 /*!
  * lang-map <https://github.com/jonschlinkert/lang-map>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Copyright (c) 2014-2015, Jon Schlinkert.
  * Licensed under the MIT license.
  */
 
