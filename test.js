@@ -18,7 +18,7 @@ describe('lang-map', function () {
 
   it('should return the extensions matching the given language.', function () {
     assert.deepEqual(languages.ext('asciidoc'), ['asciidoc', 'adoc', 'asc']);
-    assert.deepEqual(languages.ext('python'), ['py', 'gyp', 'lmi', 'pyde', 'pyp', 'pyt', 'pyw', 'wsgi', 'xpy']);
+    assert.deepEqual(languages.ext('python'), ['py','gyp','lmi','pyde','pyp','pyt','pyw','wsgi','xpy']);
     assert.deepEqual(languages.ext('markdown'), ['md','markdown','mkd','mkdn','mkdown','ron']);
   });
 
