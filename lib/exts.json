@@ -2,8 +2,19 @@
   "abap": [
     "abap"
   ],
+  "ags script": [
+    "asc",
+    "ash"
+  ],
+  "ampl": [
+    "ampl"
+  ],
   "antlr": [
     "g4"
+  ],
+  "apl": [
+    "apl",
+    "dyalog"
   ],
   "asp": [
     "asp",
@@ -16,7 +27,6 @@
   ],
   "ats": [
     "dats",
-    "atxt",
     "hats",
     "sats"
   ],
@@ -25,6 +35,7 @@
   ],
   "ada": [
     "adb",
+    "ada",
     "ads"
   ],
   "agda": [
@@ -58,13 +69,16 @@
     "aj"
   ],
   "assembly": [
-    "asm"
+    "asm",
+    "a51",
+    "nasm"
   ],
   "augeas": [
     "aug"
   ],
   "autohotkey": [
-    "ahk"
+    "ahk",
+    "ahkl"
   ],
   "autoit": [
     "au3"
@@ -82,6 +96,12 @@
   ],
   "befunge": [
     "befunge"
+  ],
+  "bison": [
+    "y"
+  ],
+  "bitbake": [
+    "bb"
   ],
   "blitzbasic": [
     "bb",
@@ -110,6 +130,7 @@
     "c",
     "cats",
     "h",
+    "idc",
     "w"
   ],
   "c#": [
@@ -119,20 +140,19 @@
   ],
   "c++": [
     "cpp",
-    "C",
     "c++",
     "cc",
+    "cp",
     "cxx",
-    "H",
     "h",
     "h++",
     "hh",
     "hpp",
     "hxx",
     "inl",
+    "ipp",
     "tcc",
-    "tpp",
-    "ipp"
+    "tpp"
   ],
   "c-objdump": [
     "c-objdump"
@@ -145,7 +165,7 @@
   ],
   "cmake": [
     "cmake",
-    "in"
+    "cmake.in"
   ],
   "cobol": [
     "cob",
@@ -156,6 +176,12 @@
   ],
   "css": [
     "css"
+  ],
+  "cap'n proto": [
+    "capnp"
+  ],
+  "cartocss": [
+    "mss"
   ],
   "ceylon": [
     "ceylon"
@@ -169,28 +195,34 @@
   "cirru": [
     "cirru"
   ],
+  "clarion": [
+    "clw"
+  ],
   "clean": [
     "icl",
     "dcl"
   ],
   "clojure": [
     "clj",
+    "boot",
     "cl2",
     "cljc",
     "cljs",
+    "cljs.hl",
     "cljscm",
     "cljx",
-    "hic",
-    "hl"
+    "hic"
   ],
   "coffeescript": [
     "coffee",
     "_coffee",
+    "cjsx",
     "cson",
     "iced"
   ],
   "coldfusion": [
-    "cfm"
+    "cfm",
+    "cfml"
   ],
   "coldfusion cfc": [
     "cfc"
@@ -207,13 +239,18 @@
     "cp",
     "cps"
   ],
+  "cool": [
+    "cl"
+  ],
   "coq": [
     "coq",
     "v"
   ],
   "cpp-objdump": [
     "cppobjdump",
+    "c++-objdump",
     "c++objdump",
+    "cpp-objdump",
     "cxx-objdump"
   ],
   "creole": [
@@ -244,12 +281,14 @@
   "d-objdump": [
     "d-objdump"
   ],
+  "digital command language": [
+    "com"
+  ],
   "dm": [
     "dm"
   ],
-  "dot": [
-    "dot",
-    "gv"
+  "dtrace": [
+    "d"
   ],
   "darcs patch": [
     "darcspatch",
@@ -262,19 +301,20 @@
     "diff",
     "patch"
   ],
+  "dockerfile": [
+    "dockerfile"
+  ],
   "dogescript": [
     "djs"
   ],
   "dylan": [
     "dylan",
+    "dyl",
     "intr",
     "lid"
   ],
   "e": [
     "E"
-  ],
-  "ecere projects": [
-    "epj"
   ],
   "ecl": [
     "ecl",
@@ -283,6 +323,9 @@
   "eagle": [
     "sch",
     "brd"
+  ],
+  "ecere projects": [
+    "epj"
   ],
   "eiffel": [
     "e"
@@ -296,10 +339,16 @@
   ],
   "emacs lisp": [
     "el",
-    "emacs"
+    "emacs",
+    "emacs.desktop"
+  ],
+  "emberscript": [
+    "em",
+    "emberscript"
   ],
   "erlang": [
     "erl",
+    "es",
     "escript",
     "hrl"
   ],
@@ -314,14 +363,6 @@
   ],
   "fortran": [
     "f90",
-    "F",
-    "F03",
-    "F08",
-    "F77",
-    "F90",
-    "F95",
-    "FOR",
-    "FPP",
     "f",
     "f03",
     "f08",
@@ -340,16 +381,29 @@
   "fantom": [
     "fan"
   ],
+  "filterscript": [
+    "fs"
+  ],
+  "formatted": [
+    "for"
+  ],
   "forth": [
     "fth",
     "4th",
-    "forth"
+    "f",
+    "for",
+    "forth",
+    "fr",
+    "frt",
+    "fs"
   ],
   "frege": [
     "fr"
   ],
-  "game maker language": [
-    "gml"
+  "g-code": [
+    "g",
+    "gco",
+    "gcode"
   ],
   "gams": [
     "gms"
@@ -358,18 +412,23 @@
     "g",
     "gap",
     "gd",
-    "gi"
+    "gi",
+    "tst"
   ],
   "gas": [
-    "s",
-    "S"
+    "s"
+  ],
+  "gdscript": [
+    "gd"
   ],
   "glsl": [
     "glsl",
     "fp",
     "frag",
     "frg",
+    "fs",
     "fshader",
+    "geo",
     "geom",
     "glslv",
     "gshader",
@@ -377,6 +436,9 @@
     "vert",
     "vrx",
     "vshader"
+  ],
+  "game maker language": [
+    "gml"
   ],
   "genshi": [
     "kid"
@@ -404,6 +466,9 @@
   "go": [
     "go"
   ],
+  "golo": [
+    "golo"
+  ],
   "gosu": [
     "gs",
     "gst",
@@ -413,8 +478,18 @@
   "grace": [
     "grace"
   ],
+  "gradle": [
+    "gradle"
+  ],
   "grammatical framework": [
     "gf"
+  ],
+  "graph modeling language": [
+    "gml"
+  ],
+  "graphviz (dot)": [
+    "dot",
+    "gv"
   ],
   "groff": [
     "man",
@@ -428,7 +503,6 @@
   ],
   "groovy": [
     "groovy",
-    "gradle",
     "grt",
     "gtpl",
     "gvy"
@@ -439,7 +513,9 @@
   "html": [
     "html",
     "htm",
+    "html.hl",
     "st",
+    "xht",
     "xhtml"
   ],
   "html+django": [
@@ -448,7 +524,7 @@
   ],
   "html+erb": [
     "erb",
-    "deface"
+    "erb.deface"
   ],
   "html+php": [
     "phtml"
@@ -456,9 +532,13 @@
   "http": [
     "http"
   ],
+  "hack": [
+    "hh",
+    "php"
+  ],
   "haml": [
     "haml",
-    "deface"
+    "haml.deface"
   ],
   "handlebars": [
     "handlebars",
@@ -482,13 +562,19 @@
     "pro",
     "dlm"
   ],
+  "igor pro": [
+    "ipf"
+  ],
   "ini": [
     "ini",
+    "cfg",
     "prefs",
+    "pro",
     "properties"
   ],
-  "inno setup": [
-    "iss"
+  "irc log": [
+    "irclog",
+    "weechatlog"
   ],
   "idris": [
     "idr",
@@ -498,9 +584,8 @@
     "ni",
     "i7x"
   ],
-  "irc log": [
-    "irclog",
-    "weechatlog"
+  "inno setup": [
+    "iss"
   ],
   "io": [
     "io"
@@ -514,16 +599,13 @@
   "j": [
     "ijs"
   ],
+  "jflex": [
+    "flex",
+    "jflex"
+  ],
   "json": [
     "json",
-    "lock",
-    "sublime-keymap",
-    "sublime-mousemap",
-    "sublime-project",
-    "sublime-settings",
-    "sublime-workspace",
-    "sublime_metrics",
-    "sublime_session"
+    "lock"
   ],
   "json5": [
     "json5"
@@ -537,6 +619,9 @@
   "jade": [
     "jade"
   ],
+  "jasmin": [
+    "j"
+  ],
   "java": [
     "java"
   ],
@@ -549,7 +634,9 @@
     "bones",
     "es6",
     "frag",
+    "gs",
     "jake",
+    "jsb",
     "jsfl",
     "jsm",
     "jss",
@@ -558,6 +645,19 @@
     "pac",
     "sjs",
     "ssjs",
+    "sublime-build",
+    "sublime-commands",
+    "sublime-completions",
+    "sublime-keymap",
+    "sublime-macro",
+    "sublime-menu",
+    "sublime-mousemap",
+    "sublime-project",
+    "sublime-settings",
+    "sublime-theme",
+    "sublime-workspace",
+    "sublime_metrics",
+    "sublime_session",
     "xsjs",
     "xsjslib"
   ],
@@ -566,6 +666,9 @@
   ],
   "krl": [
     "krl"
+  ],
+  "kicad": [
+    "sch"
   ],
   "kit": [
     "kit"
@@ -581,17 +684,28 @@
   "llvm": [
     "ll"
   ],
+  "lolcode": [
+    "lol"
+  ],
+  "lsl": [
+    "lsl"
+  ],
   "labview": [
     "lvproj"
   ],
   "lasso": [
     "lasso",
     "las",
+    "lasso8",
     "lasso9",
     "ldml"
   ],
   "latte": [
     "latte"
+  ],
+  "lean": [
+    "lean",
+    "hlean"
   ],
   "less": [
     "less"
@@ -599,6 +713,14 @@
   "lilypond": [
     "ly",
     "ily"
+  ],
+  "limbo": [
+    "b",
+    "m"
+  ],
+  "linker script": [
+    "ld",
+    "lds"
   ],
   "liquid": [
     "liquid"
@@ -617,7 +739,9 @@
     "_ls"
   ],
   "logos": [
-    "xm"
+    "xm",
+    "x",
+    "xi"
   ],
   "logtalk": [
     "lgt",
@@ -626,11 +750,16 @@
   "lookml": [
     "lookml"
   ],
+  "loomscript": [
+    "ls"
+  ],
   "lua": [
     "lua",
+    "fcgi",
     "nse",
     "pd_lua",
-    "rbxs"
+    "rbxs",
+    "wlua"
   ],
   "m": [
     "mumps",
@@ -639,8 +768,13 @@
   "mtml": [
     "mtml"
   ],
+  "muf": [
+    "muf",
+    "m"
+  ],
   "makefile": [
     "mak",
+    "d",
     "mk"
   ],
   "mako": [
@@ -660,8 +794,13 @@
   ],
   "mathematica": [
     "mathematica",
+    "cdf",
     "m",
-    "nb"
+    "ma",
+    "nb",
+    "nbp",
+    "wl",
+    "wlt"
   ],
   "matlab": [
     "matlab",
@@ -690,6 +829,13 @@
     "mir",
     "mirah"
   ],
+  "modelica": [
+    "mo"
+  ],
+  "module management system": [
+    "mms",
+    "mmk"
+  ],
   "monkey": [
     "monkey"
   ],
@@ -702,6 +848,9 @@
   "myghty": [
     "myt"
   ],
+  "nl": [
+    "nl"
+  ],
   "nsis": [
     "nsi",
     "nsh"
@@ -709,8 +858,21 @@
   "nemerle": [
     "n"
   ],
+  "netlinx": [
+    "axs",
+    "axi"
+  ],
+  "netlinx+erb": [
+    "axs.erb",
+    "axi.erb"
+  ],
   "netlogo": [
     "nlogo"
+  ],
+  "newlisp": [
+    "nl",
+    "lisp",
+    "lsp"
   ],
   "nginx": [
     "nginxconf"
@@ -718,6 +880,9 @@
   "nimrod": [
     "nim",
     "nimrod"
+  ],
+  "ninja": [
+    "ninja"
   ],
   "nit": [
     "nit"
@@ -762,6 +927,9 @@
   "opa": [
     "opa"
   ],
+  "opal": [
+    "opal"
+  ],
   "opencl": [
     "cl",
     "opencl"
@@ -784,6 +952,9 @@
   "oxygene": [
     "oxygene"
   ],
+  "oz": [
+    "oz"
+  ],
   "pawn": [
     "pwn"
   ],
@@ -791,33 +962,47 @@
     "php",
     "aw",
     "ctp",
-    "module",
+    "fcgi",
     "php3",
     "php4",
     "php5",
     "phpt"
   ],
+  "plsql": [
+    "pls",
+    "pkb",
+    "pks",
+    "plb",
+    "plsql",
+    "sql"
+  ],
+  "plpgsql": [
+    "sql"
+  ],
   "pan": [
     "pan"
+  ],
+  "papyrus": [
+    "psc"
   ],
   "parrot": [
     "parrot"
   ],
-  "parrot internal representation": [
-    "pir"
-  ],
   "parrot assembly": [
     "pasm"
+  ],
+  "parrot internal representation": [
+    "pir"
   ],
   "pascal": [
     "pas",
     "dfm",
     "dpr",
-    "lpr"
+    "lpr",
+    "pp"
   ],
   "perl": [
     "pl",
-    "PL",
     "cgi",
     "fcgi",
     "perl",
@@ -829,14 +1014,20 @@
     "t"
   ],
   "perl6": [
-    "p6",
     "6pl",
     "6pm",
     "nqp",
+    "p6",
     "p6l",
     "p6m",
+    "pl",
     "pl6",
-    "pm6"
+    "pm",
+    "pm6",
+    "t"
+  ],
+  "piglatin": [
+    "pig"
   ],
   "pike": [
     "pike",
@@ -861,9 +1052,10 @@
     "pde"
   ],
   "prolog": [
-    "prolog",
+    "pl",
     "ecl",
-    "pl"
+    "pro",
+    "prolog"
   ],
   "propeller spin": [
     "spin"
@@ -871,23 +1063,34 @@
   "protocol buffer": [
     "proto"
   ],
+  "public key": [
+    "asc",
+    "pub"
+  ],
   "puppet": [
     "pp"
   ],
   "pure data": [
     "pd"
   ],
+  "purebasic": [
+    "pb",
+    "pbi"
+  ],
   "purescript": [
     "purs"
   ],
   "python": [
     "py",
+    "cgi",
+    "fcgi",
     "gyp",
     "lmi",
     "pyde",
     "pyp",
     "pyt",
     "pyw",
+    "tac",
     "wsgi",
     "xpy"
   ],
@@ -903,10 +1106,11 @@
   ],
   "r": [
     "r",
-    "R",
-    "Rd",
     "rd",
     "rsx"
+  ],
+  "raml": [
+    "raml"
   ],
   "rdoc": [
     "rdoc"
@@ -923,8 +1127,7 @@
     "rhtml"
   ],
   "rmarkdown": [
-    "rmd",
-    "Rmd"
+    "rmd"
   ],
   "racket": [
     "rkt",
@@ -952,6 +1155,10 @@
   "redcode": [
     "cw"
   ],
+  "renderscript": [
+    "rs",
+    "rsh"
+  ],
   "robotframework": [
     "robot"
   ],
@@ -961,9 +1168,11 @@
   "ruby": [
     "rb",
     "builder",
+    "fcgi",
     "gemspec",
     "god",
     "irbrc",
+    "jbuilder",
     "mspec",
     "pluginspec",
     "podspec",
@@ -973,6 +1182,7 @@
     "rbw",
     "rbx",
     "ru",
+    "ruby",
     "thor",
     "watchr"
   ],
@@ -985,26 +1195,42 @@
   "scss": [
     "scss"
   ],
+  "sparql": [
+    "sparql",
+    "rq"
+  ],
   "sqf": [
     "sqf",
     "hqf"
   ],
   "sql": [
     "sql",
+    "cql",
+    "ddl",
     "prc",
     "tab",
     "udf",
     "viw"
   ],
+  "sqlpl": [
+    "sql",
+    "db2"
+  ],
   "ston": [
     "ston"
   ],
+  "svg": [
+    "svg"
+  ],
   "sage": [
-    "sage"
+    "sage",
+    "sagews"
+  ],
+  "saltstack": [
+    "sls"
   ],
   "sass": [
-    "sass",
-    "scss"
+    "sass"
   ],
   "scala": [
     "scala",
@@ -1033,7 +1259,12 @@
     "sh",
     "bash",
     "bats",
+    "cgi",
+    "command",
+    "fcgi",
+    "ksh",
     "tmux",
+    "tool",
     "zsh"
   ],
   "shellsession": [
@@ -1049,13 +1280,15 @@
     "slim"
   ],
   "smalltalk": [
-    "st"
+    "st",
+    "cs"
   ],
   "smarty": [
     "tpl"
   ],
   "sourcepawn": [
-    "sp"
+    "sp",
+    "sma"
   ],
   "squirrel": [
     "nut"
@@ -1079,7 +1312,8 @@
     "styl"
   ],
   "supercollider": [
-    "scd"
+    "scd",
+    "sc"
   ],
   "swift": [
     "swift"
@@ -1124,12 +1358,22 @@
   "tea": [
     "tea"
   ],
+  "text": [
+    "txt",
+    "fr"
+  ],
   "textile": [
     "textile"
+  ],
+  "thrift": [
+    "thrift"
   ],
   "turing": [
     "t",
     "tu"
+  ],
+  "turtle": [
+    "ttl"
   ],
   "twig": [
     "twig"
@@ -1180,6 +1424,12 @@
   "volt": [
     "volt"
   ],
+  "web ontology language": [
+    "owl"
+  ],
+  "webidl": [
+    "webidl"
+  ],
   "xc": [
     "xc"
   ],
@@ -1195,17 +1445,21 @@
     "dita",
     "ditamap",
     "ditaval",
+    "dll.config",
     "filters",
     "fsproj",
+    "fxml",
     "glade",
     "grxml",
     "ivy",
     "jelly",
     "kml",
     "launch",
+    "mm",
     "mxml",
     "nproj",
     "nuspec",
+    "odd",
     "osm",
     "plist",
     "pluginspec",
@@ -1216,29 +1470,35 @@
     "rss",
     "scxml",
     "srdf",
-    "svg",
+    "storyboard",
+    "stTheme",
+    "sublime-snippet",
     "targets",
     "tmCommand",
+    "tml",
     "tmLanguage",
     "tmPreferences",
     "tmSnippet",
     "tmTheme",
-    "tml",
+    "ts",
     "ui",
     "urdf",
     "vbproj",
     "vcxproj",
     "vxml",
     "wsdl",
+    "wsf",
     "wxi",
     "wxl",
     "wxs",
     "x3d",
     "xacro",
     "xaml",
+    "xib",
     "xlf",
     "xliff",
     "xmi",
+    "xml.dist",
     "xsd",
     "xul",
     "zcml"
@@ -1285,6 +1545,10 @@
     "zimpl",
     "zmpl",
     "zpl"
+  ],
+  "desktop": [
+    "desktop",
+    "desktop.in"
   ],
   "ec": [
     "ec",
