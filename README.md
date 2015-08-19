@@ -2,6 +2,10 @@
 
 > Get the language associated with a file extension or the extensions associated with a language using the data from GitHub's [Linguist YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
+## Heads up! API Changes in 0.4.0
+
+The API changed in v0.4.0. Please see the documentation below for details on the new API. Don't hesitate to create an issue if you have any questions.
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/)
