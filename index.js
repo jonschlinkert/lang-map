@@ -7,55 +7,55 @@
 
 'use strict';
 
-var languages = require('./lang.json');
+// Lazy-load and cache extensions and languages
+function map() {
+  var cache = {};
+  if (!cache.extensions) cache.extensions = require('./lib/exts.json');
+  if (!cache.languages) cache.languages = require('./lib/lang.json');
+  return cache;
+}
 
 /**
- * Expose languages module
- */
-
-module.exports = languages;
-
-/**
- * Get the list of extensions mapped to the
- * given `lang`
+ * Get the list of extensions mapped to the given `language`
  *
- * @param  {String} `lang`
- * @return {String}
+ * @param  {String} `language`
+ * @return {Array}
  */
 
-languages.ext = function extension(lang) {
-  lang = lang.toLowerCase();
-  return languages.hasOwnProperty(lang)
-    ? languages[lang]
-    : lang;
+map.extensions = function extensions(lang) {
+  lang = normalize(lang);
+  var langs = map().languages;
+  var exts = map().extensions;
+  return exts[lang] || exts[langs[lang]] || [lang];
 };
 
 /**
- * Get the language mapped to the given `ext`
+ * Get the languages mapped to the given `ext`
  *
  * @param  {String} `ext`
  * @return {String}
  */
 
-languages.lang = function lang(ext) {
-  if (ext[0] === '.') ext = ext.slice(1);
-  if (languages.hasOwnProperty(ext)) {
-    return ext;
-  }
-
-  var keys = Object.keys(languages);
-  var len = keys.length;
-  var i = 0;
-
-  while (i < len) {
-    var key = keys[i++];
-    if (key === ext) {
-      return key;
-    }
-
-    var langs = languages[key];
-    if (langs.indexOf(ext) !== -1) {
-      return key;
-    }
-  }
+map.languages = function languages(ext) {
+  ext = normalize(ext);
+  var langs = map().languages;
+  var exts = map().extensions;
+  return langs[ext] || langs[exts[ext]] || [ext];
 };
+
+/**
+ * Normalize the given language or extension
+ */
+
+function normalize(str) {
+  if (str.charAt(0) === '.') {
+    str = str.slice(1);
+  }
+  return str.toLowerCase();
+}
+
+/**
+ * Expose `langMap`
+ */
+
+module.exports = map;
