@@ -2080,6 +2080,9 @@
     "typescript",
     "xml"
   ],
+  "tsx": [
+    "typescript"
+  ],
   "upc": [
     "unified parallel c"
   ],
